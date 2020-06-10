@@ -68,7 +68,6 @@ def main():
     parser.add_argument("--test", "-t",dest="test", action="store_true", required=False,
                         help="Use this flag to see unengaged users but not disable them.")
     args = parser.parse_args()
-    print(args)
     unengaged_users = get_unengaged_users(args.days)
     if args.test:
         print("Running script in test mode. Unengaged users:")
