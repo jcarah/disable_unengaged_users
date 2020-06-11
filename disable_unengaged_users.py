@@ -81,6 +81,6 @@ def main():
                 print(f"Disabled users outputted to {csv_name}.")
                 write_unengaged_users(unengaged_users, csv_name)
         else:
-            print("No unengaged users to disabled.")
+            print("No unengaged users to disable.")
 
 main()
