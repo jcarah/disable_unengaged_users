@@ -1,10 +1,10 @@
 # Looker Content Cleanup
 
-Disable Looker users who have not logged into the platform or used the API in X number of days. 
+Disable Looker users who have not **logged into** the platform or used the API in X number of days. _Note_: Some users may not login to Looker but may still receive schedules from Looker. Please see the note about running the script in test mode.
 
 ### Prerequisites
 
-This script rely on the new Looker [Python SDK](https://github.com/looker-open-source/sdk-codegen/tree/master/python), which requires Python 3.6+.
+This script relies on the new Looker [Python SDK](https://github.com/looker-open-source/sdk-codegen/tree/master/python), which requires Python 3.6+.
 
 
 ### Getting started
