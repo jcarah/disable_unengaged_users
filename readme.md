@@ -1,4 +1,4 @@
-# Looker Content Cleanup
+# Disable Unengaged Users
 
 Disable Looker users who have not **logged into** the platform or used the API in X number of days. _Note_: Some users may not login to Looker but may still receive schedules from Looker. Please see the note about running the script in test mode.
 
